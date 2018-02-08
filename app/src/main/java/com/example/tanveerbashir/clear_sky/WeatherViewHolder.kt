@@ -8,3 +8,4 @@ import android.view.View
  */
 
 class WeatherViewHolder(val view: View): RecyclerView.ViewHolder(view)
+class HeaderViewHolder(val view: View): RecyclerView.ViewHolder(view)
