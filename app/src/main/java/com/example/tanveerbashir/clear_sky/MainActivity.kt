@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
                 .authority("api.darksky.net")
                 .appendPath("forecast")
                 .appendPath("72863521b180d169af5fd702f776bfc4")
-                .appendPath("37.8267, -122.4233")
+                .appendPath("40.2600, -74.7909")
 
         val url = builder.build().toString()
         val request = Request.Builder().url(url).build()
