@@ -5,7 +5,7 @@
     android:id="@+id/weather_cell"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/colorPrimaryDark"
+    android:background="@android:color/transparent"
     android:paddingBottom="10dp"
     android:paddingTop="10dp">
 
